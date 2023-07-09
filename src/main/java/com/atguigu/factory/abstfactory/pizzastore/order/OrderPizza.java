@@ -7,21 +7,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class OrderPizza {
-    SimpleFactory simpleFactory;
-    Pizza pizza=null;
+    AbsFactory absFactory;
 
-    public OrderPizza(SimpleFactory simpleFactory) throws IOException {
-        setSimpleFactory(simpleFactory);
+    public OrderPizza(AbsFactory absFactory) throws IOException {
+        setAbsFactory(absFactory);
     }
 
-    public void setSimpleFactory(SimpleFactory simpleFactory) throws IOException {
+    public void setAbsFactory(AbsFactory absFactory) throws IOException {
+        Pizza pizza=null;
         String orderType="";
 
-        this.simpleFactory = simpleFactory;
+        this.absFactory = absFactory;
 
         do {
             orderType=getType();
-            pizza=this.simpleFactory.createPizza(orderType);
+            pizza=this.absFactory.createPizza(orderType);
 
             if (pizza!=null) {
                 pizza.prepare();
