@@ -4,16 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8329dfd7-4d71-4f50-962d-ac44360ea41d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type1/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type2/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type3/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type4/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type5/TestSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8329dfd7-4d71-4f50-962d-ac44360ea41d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/PepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/order/BJOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/order/LDOrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/pizza/BJPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/pizza/LDCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/pizza/LDPepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/factorymethod/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/order/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/pizza/PepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/simple/pizzastore/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/order/OrderPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/pizza/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/pizza/GreekPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/pizza/PepperPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/trad/pizzastore/pizza/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type1/Singleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +66,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/singleton/type5"
+    "last_opened_file_path": "C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/factory/abstfactory"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\abstfactory" />
+      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\factorymethod" />
+      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\trad" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\singleton\type5" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\singleton\type4" />
-      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\singleton\type3" />
-      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\singleton\type2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.factory.factorymethod.pizzastore.order" />
+      <recent name="com.atguigu.factory.factorymethod.pizzastore.pizza" />
+      <recent name="com.atguigu.factory.simple.pizzastore.pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atguigu.singleton.type5.TestSingleton">
-    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.singleton.type1.TestSingleton" />
+  <component name="RunManager" selected="Application.com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore">
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.factory.simple.pizzastore.order.PizzaStore" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.singleton.type1.*" />
+          <option name="PATTERN" value="com.atguigu.factory.simple.pizzastore.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.singleton.type2.TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.singleton.type2.TestSingleton" />
+    <configuration name="com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.singleton.type2.*" />
+          <option name="PATTERN" value="com.atguigu.factory.factorymethod.pizzastore.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore" />
+        <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.com.atguigu.singleton.type5.TestSingleton" />
         <item itemvalue="Application.com.atguigu.singleton.type4.TestSingleton" />
         <item itemvalue="Application.com.atguigu.singleton.type3.TestSingleton" />
-        <item itemvalue="Application.com.atguigu.singleton.type2.TestSingleton" />
-        <item itemvalue="Application.TestSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -140,8 +169,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688893906685</updated>
-      <workItem from="1688893912011" duration="3112000" />
+      <workItem from="1688893912011" duration="9377000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1688897069811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688897069811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,5 +194,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
