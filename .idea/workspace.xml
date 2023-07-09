@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8329dfd7-4d71-4f50-962d-ac44360ea41d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/AbsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/BJFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/LDFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/BJCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/BJPepperPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/LDCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/LDPepperPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/staticproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/staticproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/staticproxy/TeacherDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/dynamicproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/dynamicproxy/ITeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/dynamicproxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/dynamicproxy/TeacherDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/OrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/OrderPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/PizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/order/SimpleFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/CheesePizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/GreekPizza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza/PepperPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/singleton/type1/Singleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,16 +45,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/factory/abstfactory/pizzastore/pizza"
+    "last_opened_file_path": "C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/proxy/dynamicproxy",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\proxy\dynamicproxy" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\abstfactory\pizzastore\pizza" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\abstfactory" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\factorymethod" />
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\factory\trad" />
-      <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\singleton\type5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.factory.abstfactory.pizzastore.order" />
@@ -74,7 +64,7 @@
       <recent name="com.atguigu.factory.simple.pizzastore.pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.com.atguigu.proxy.dynamicproxy.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.proxy.staticproxy.Client" />
       <module name="design_pattern" />
@@ -127,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atguigu.singleton.type5.TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.singleton.type5.TestSingleton" />
+    <configuration name="com.atguigu.proxy.dynamicproxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.proxy.dynamicproxy.Client" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.singleton.type5.*" />
+          <option name="PATTERN" value="com.atguigu.proxy.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atguigu.proxy.dynamicproxy.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atguigu.factory.abstfactory.pizzastore.order.PizzaStore" />
         <item itemvalue="Application.com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore" />
         <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.com.atguigu.singleton.type5.TestSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688893906685</updated>
-      <workItem from="1688893912011" duration="11771000" />
+      <workItem from="1688893912011" duration="14292000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1688897069811</created>
@@ -174,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688910361446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1688912941690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688912941690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
