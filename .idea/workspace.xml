@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8329dfd7-4d71-4f50-962d-ac44360ea41d" name="Changes" comment="update" />
+    <list default="true" id="8329dfd7-4d71-4f50-962d-ac44360ea41d" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/factory/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/factory/CoffeeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/factory/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/factory/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/proxy/static_/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/proxy/static_/ISellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/proxy/static_/ProxyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/heima/proxy/static_/TrainStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,16 +42,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/proxy/dynamicproxy",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kbl/Desktop/trash/code/design_pattern/src/main/java/com/atguigu/proxy/dynamicproxy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kbl\Desktop\trash\code\design_pattern\src\main\java\com\atguigu\proxy\dynamicproxy" />
@@ -57,13 +67,13 @@
       <recent name="com.atguigu.factory.simple.pizzastore.pizza" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atguigu.proxy.dynamicproxy.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.proxy.staticproxy.Client" />
+  <component name="RunManager" selected="Application.Buyer">
+    <configuration name="Buyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.proxy.static_.Buyer" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.proxy.staticproxy.*" />
+          <option name="PATTERN" value="com.heima.proxy.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.factory.simple.pizzastore.order.PizzaStore" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.proxy.staticproxy.Client" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.factory.simple.pizzastore.order.*" />
+          <option name="PATTERN" value="com.atguigu.proxy.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Buyer" />
         <item itemvalue="Application.com.atguigu.proxy.dynamicproxy.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atguigu.factory.abstfactory.pizzastore.order.PizzaStore" />
         <item itemvalue="Application.com.atguigu.factory.factorymethod.pizzastore.order.PizzaStore" />
-        <item itemvalue="Application.PizzaStore" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688893906685</updated>
-      <workItem from="1688893912011" duration="14648000" />
+      <workItem from="1688893912011" duration="15951000" />
+      <workItem from="1689051015226" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1688897069811</created>
@@ -171,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688920489482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1688920741959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688920741959</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,16 +210,5 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/atguigu/proxy/dynamicproxy/ProxyFactory.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
